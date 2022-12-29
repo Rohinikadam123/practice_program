@@ -8,16 +8,16 @@ public class Reverse_of_no {
 //		Scanner sc=new Scanner(System.in);
 //		System.out.println("enter the no:");
 //		int n=sc.nextInt();
-		int a=9876,j=0;
+		int a=9876,b=0;
 //		a=n;
 		while(a>0) {
-		int i=a%10;
+		int c=a%10;
 			
-			j=(j*10)+i;
+			b=(b*10)+c;
 			a=a/10;
 			
 		}
-		System.out.println("the reverse no. is:"+j);
+		System.out.println("the reverse no. is:"+b);
 	}
 
 

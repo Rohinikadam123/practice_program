@@ -1,23 +1,36 @@
 package basic_programs;
 
-
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class Trial1 {
 
-	public static void main(String[] args) {
-for(int i=1;i<=100;i++) {
-	int a=i,b,c=0;
+public static void main(String[] args) {
+	
+	int a=98765,b=0;
 	while(a>0) {
-		b=a%10;
-		c=(b*10)+b;
+		int c=a%10;
+		b=(b*10)+c;
 		a=a/10;
+	}
+	System.out.println("reverse of no is:"+b);
+}}
+	
+	
+
+	
+	
+	
+
 		
-	}
-	if(i==c) {
-		System.out.println(i);
-	}
-}
-	}
-	}
+	
+	
+	
+	
+	
+		
+		
+
+
 
 

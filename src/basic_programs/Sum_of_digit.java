@@ -8,16 +8,16 @@ public class Sum_of_digit {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter no:");
 		int n =sc.nextInt();
-		int a,i=0,j=0;
+		int a,b=0,c=0;
 		a=n;
 	while(a>0) {
 		
-			i=a%10;
-			j=j+i;
+			b=a%10;
+			c=c+b;
 			a=a/10;
 			
 		}
-		System.out.println("sum of digit="+j);
+		System.out.println("sum of digit="+c);
 
 	}
 }
